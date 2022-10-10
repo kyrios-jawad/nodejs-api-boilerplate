@@ -168,5 +168,5 @@ Project Link: [https://github.com/maksof-jawad/nodejs-api-boilerplate](https://g
 -----
 Credits: [Maksof Jawad](https://github.com/maksof-jawad)
 
-Last Edited on: 10/7/2022
+Last Edited on: 10/10/2022
 
