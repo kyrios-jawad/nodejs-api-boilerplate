@@ -60,7 +60,7 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 Use the `ReadMe.md` to get started.
 
-<p align="right">(<a href="#nodejs-api-boilerplate"><img src="https://www.clipartmax.com/png/middle/209-2095167_arrow-icon-clip-art-file-down-arrow-icon-png-balin-back-to.png" alt="Logo" width="25" height="25"></a>)</p>
+<p align="right"><a href="#nodejs-api-boilerplate"><img alt="back to top" width="25" height="25" src="https://img.icons8.com/external-others-inmotus-design/67/000000/external-Top-keyboard-others-inmotus-design-2.png"/></a></p>
 
 
 
@@ -77,8 +77,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 
-<p align="right">(<a href="#rnodejs-api-boilerplate">back to top</a>)</p>
-
+<p align="right"><a href="#nodejs-api-boilerplate"><img alt="back to top" width="25" height="25" src="https://img.icons8.com/external-others-inmotus-design/67/000000/external-Top-keyboard-others-inmotus-design-2.png"/></a></p>
 
 
 <!-- GETTING STARTED -->
@@ -123,7 +122,7 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#nodejs-api-boilerplate">back to top</a>)</p>
+<p align="right"><a href="#nodejs-api-boilerplate"><img alt="back to top" width="25" height="25" src="https://img.icons8.com/external-others-inmotus-design/67/000000/external-Top-keyboard-others-inmotus-design-2.png"/></a></p>
 
 
 
@@ -140,7 +139,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#nodejs-api-boilerplate">back to top</a>)</p>
+<p align="right"><a href="#nodejs-api-boilerplate"><img alt="back to top" width="25" height="25" src="https://img.icons8.com/external-others-inmotus-design/67/000000/external-Top-keyboard-others-inmotus-design-2.png"/></a></p>
 
 
 
@@ -158,26 +157,38 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#nodejs-api-boilerplate">back to top</a>)</p>
+<p align="right"><a href="#nodejs-api-boilerplate"><img alt="back to top" width="25" height="25" src="https://img.icons8.com/external-others-inmotus-design/67/000000/external-Top-keyboard-others-inmotus-design-2.png"/></a></p>
 
 
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License.
 
-<p align="right">(<a href="#nodejs-api-boilerplate">back to top</a>)</p>
+<p align="right"><a href="#nodejs-api-boilerplate"><img alt="back to top" width="25" height="25" src="https://img.icons8.com/external-others-inmotus-design/67/000000/external-Top-keyboard-others-inmotus-design-2.png"/></a></p>
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Email - [contact.syedjawad](mailto:contact.syedjawad@gmail.com) - @example.com
 
 Project Link: [https://github.com/maksof-jawad/nodejs-api-boilerplate](https://github.com/maksof-jawad/nodejs-api-boilerplate)
 
-<p align="right">(<a href="#nodejs-api-boilerplate">back to top</a>)</p>
+<p align="right"><a href="#nodejs-api-boilerplate"><img alt="back to top" width="25" height="25" src="https://img.icons8.com/external-others-inmotus-design/67/000000/external-Top-keyboard-others-inmotus-design-2.png"/></a></p>
 
+
+<div align="center">
+  
+## 𝚂𝚑𝚘𝚠 𝚜𝚘𝚖𝚎 ❤️ 𝚋𝚢 𝚜𝚝𝚊𝚛𝚛𝚒𝚗𝚐 this 𝚛𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚒𝚎𝚜!
+
+</div>
+
+![footer](https://github.com/JayantGoel001/JayantGoel001/blob/master/WEBP/footer.webp)
+-----
+Credits: [Maksof Jawad](https://github.com/maksof-jawad)
+
+Last Edited on: 10/7/2022
 
