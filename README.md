@@ -111,7 +111,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 3. create a database
    ```sh
-   edit dbconfig in app/config
+   edit dbconfig in app/config/db-config
    ```
 4. Run your Application `index.js`
    ```js
