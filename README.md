@@ -115,7 +115,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 4. Run your Application `index.js`
    ```js
-   npm start
+   npm start or nodemon
    ```
 
 <p align="right">(<a href="#nodejs-api-boilerplate">back to top</a>)</p>
