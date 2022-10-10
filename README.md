@@ -62,8 +62,13 @@ Social logins (Google & Apple), unit and integration tests, in-app purchases (Go
 <p align="right"><a href="#nodejs-api-boilerplate"><img alt="back to top" width="25" height="25" src="https://img.icons8.com/external-others-inmotus-design/67/000000/external-Top-keyboard-others-inmotus-design-2.png"/></a></p>
 
 ### Features
-- hehehe
-
+- **SQL database** : mySql using [sequelize](https://sequelize.org/)
+- **Authentication and authorization** : using [JWT](https://jwt.io/) (access and refresh token)
+- **Validation** : request data validation using [Joi](https://github.com/hapijs/joi)
+- **Error handling**: error handling mechanism with specific result messages and codes
+- **Environment variables**: using [dotenv](https://github.com/motdotla/dotenv)
+- **CORS**: Cross-Origin Resource-Sharing enabled using [cors](https://github.com/expressjs/cors)
+- and so on
 ### Built With
 
 This section show's list of major frameworks/libraries/modules used to bootstrap this project.
@@ -82,8 +87,7 @@ This section show's list of major frameworks/libraries/modules used to bootstrap
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
@@ -101,45 +105,20 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    https://github.com/maksof-jawad/nodejs-api-boilerplate.git
    ```
-2. Install NPM packages
+2. Install npm packages
    ```sh
    npm install
    ```
-3. Run your Application `index.js`
+3. create a database
+   ```sh
+   edit dbconfig in app/config
+   ```
+4. Run your Application `index.js`
    ```js
    npm start
    ```
 
 <p align="right">(<a href="#nodejs-api-boilerplate">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right"><a href="#nodejs-api-boilerplate"><img alt="back to top" width="25" height="25" src="https://img.icons8.com/external-others-inmotus-design/67/000000/external-Top-keyboard-others-inmotus-design-2.png"/></a></p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right"><a href="#nodejs-api-boilerplate"><img alt="back to top" width="25" height="25" src="https://img.icons8.com/external-others-inmotus-design/67/000000/external-Top-keyboard-others-inmotus-design-2.png"/></a></p>
-
 
 
 <!-- CONTRIBUTING -->
