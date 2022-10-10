@@ -115,7 +115,7 @@ _Below is an example of how you can instruct your audience on installing and set
    npm start or nodemon
    ```
 
-<p align="right">(<a href="#nodejs-api-boilerplate">back to top</a>)</p>
+<p align="right"><a href="#nodejs-api-boilerplate"><img alt="back to top" width="25" height="25" src="https://img.icons8.com/external-others-inmotus-design/67/000000/external-Top-keyboard-others-inmotus-design-2.png"/></a></p>
 
 
 <!-- CONTRIBUTING -->
