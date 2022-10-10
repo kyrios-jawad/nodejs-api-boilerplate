@@ -28,6 +28,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#Features">Features</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -50,20 +51,18 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+You can use this template when you're starting a new project. It contains general concepts, you can customize it according to your needs.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+A boilerplate/starter project for quickly building RESTful APIs using Node.js, Express, and mySql.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+You will get a production-ready Node.js app installed and configured on your machine. The app comes with many built-in features, such as authentication using JWT, request validation, error handling, logging, API documentation, image uploading, email sending, etc.
 
-Use the `ReadMe.md` to get started.
+Social logins (Google & Apple), unit and integration tests, in-app purchases (Google&Apple), daily crons, notifications (firebase), pagination, etc could be added in the future. Get ready for more, star it and wait!
 
 <p align="right"><a href="#nodejs-api-boilerplate"><img alt="back to top" width="25" height="25" src="https://img.icons8.com/external-others-inmotus-design/67/000000/external-Top-keyboard-others-inmotus-design-2.png"/></a></p>
 
-
+### Features
+- hehehe
 
 ### Built With
 
