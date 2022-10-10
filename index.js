@@ -13,6 +13,7 @@ app.use('/api', routes);
 
 db.authenticate().then(() => {
     console.log('Connected to database');
+    db.sync({ alter: true ,force:true});
     app.listen(port, () => {
         console.log(`App is running on ${config.Url}${port}`);
     });

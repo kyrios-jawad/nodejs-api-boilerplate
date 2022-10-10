@@ -4,7 +4,7 @@ const config = {
     PORT: process.env.PORT || 3000,
     dbConfig : {
       host: 'localhost',
-      database : 'nodejs-api',
+      database : 'nodejs_api',
       username: 'root',
       password: '',
       dialect: 'mysql',
