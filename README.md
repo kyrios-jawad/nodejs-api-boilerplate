@@ -58,9 +58,9 @@ Here's why:
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
-Use the `BLANK_README.md` to get started.
+Use the `ReadMe.md` to get started.
 
-<p align="right">(<a href="#nodejs-api-boilerplate">back to top</a>)</p>
+<p align="right">(<a href="#nodejs-api-boilerplate"><img src="https://www.clipartmax.com/png/middle/209-2095167_arrow-icon-clip-art-file-down-arrow-icon-png-balin-back-to.png" alt="Logo" width="25" height="25"></a>)</p>
 
 
 
