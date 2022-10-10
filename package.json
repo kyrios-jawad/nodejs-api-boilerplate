@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-api-boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate for kickstart your clean architecture node.js projects ( JavaScript+ Express + Sequelize + JWT and more )",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maksof-jawad/nodejs-api-boilerplate.git"
+  },
+  "author": "Maksof-Jawad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maksof-jawad/nodejs-api-boilerplate/issues"
+  },
+  "homepage": "https://github.com/maksof-jawad/nodejs-api-boilerplate#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "joi": "^17.6.2",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.24.0"
+  }
+}
