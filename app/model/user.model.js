@@ -9,7 +9,7 @@ const userSchema = db.define('users',{
     },
     profile_pic:{
         type: sequelize.DataTypes.STRING(),
-        allowNull: false,
+        defaultValue: "default.png"
     },
     username: {
         type: sequelize.DataTypes.STRING(),

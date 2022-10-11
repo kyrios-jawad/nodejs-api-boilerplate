@@ -1,3 +1,7 @@
+const { userModel } = require("../model");
+const userSchemaValidation = require("../validation/user.validation");
+const common = require('../services/common.service');
+
 const AuthController = {
     /**
     * @api { post } auth/sign-up Sign Up
@@ -9,8 +13,15 @@ const AuthController = {
     * @apiSuccess {String} account User created Succesfully
     * @apiSuccess {String} session Session logged in database Succesfully
     */
-    signUp: (req, res)=>{
-        res.status(200).send({ status: '200', message: 'test done' });
+    signUp: async (req, res)=>{
+            const { email } = req.body;
+			let data = await  userSchemaValidation.validateAsync(req.body);
+            const user = await userModel.findOne({ where: {email} });
+            data.password = common.passwordEncrpt(data.password);
+			if (user) throw new Error('User already does exist');
+			data = await (await userModel.create(data)).toJSON();
+			delete data.password;
+            res.status(201).send(data);
     },
 
     /**
@@ -24,7 +35,7 @@ const AuthController = {
     * @apiError  UserNotFound The <code>email or password</code> of the User is not valid.
     */
 
-    signIn: (req, res)=>{
+    signIn: async (req, res)=>{
         res.status(200).send({ status: '200', message: 'test done' });
     },
 
@@ -37,7 +48,7 @@ const AuthController = {
     * @apiError  UserNotFound User is not logged
     */
 
-    signOut: (req, res)=>{
+    signOut: async (req, res)=>{
         res.status(200).send({ status: '200', message: 'test done' });
     },
 
