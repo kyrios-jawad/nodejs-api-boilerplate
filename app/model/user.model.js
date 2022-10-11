@@ -1,5 +1,6 @@
-const db = require('../config/config');
+const db = require('../config/db-con');
 const sequelize = require('sequelize');
+
 const userSchema = db.define('users',{
     id: {
         type: sequelize.DataTypes.INTEGER(),
@@ -9,7 +10,6 @@ const userSchema = db.define('users',{
     profile_pic:{
         type: sequelize.DataTypes.STRING(),
         allowNull: false,
-        default : 'default',
     },
     username: {
         type: sequelize.DataTypes.STRING(),

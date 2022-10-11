@@ -1,9 +1,8 @@
-const express = require('express');
-const app = express();
+const router = require('express').Router();
 const Invalid = require('./invalid.routes')
 const auth = require('./auth.routes')
 
-app.use('/auth',auth);
-app.use('**',Invalid);
+router.use('/auth',auth);
+router.use('**',Invalid);
 
-module.exports = app;
+module.exports = router;
