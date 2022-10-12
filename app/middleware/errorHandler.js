@@ -3,7 +3,7 @@ module.exports = function errorHandler(func) {
         try {
             await func(req, res);
         } catch (err) {
-            res.status(500).send({ status: 'Error', message: err.message });
+            res.status(500).send({ success: false, message: err.message });
         }
 	};
 };

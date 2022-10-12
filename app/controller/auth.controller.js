@@ -13,15 +13,15 @@ const AuthController = {
     * @apiSuccess {String} account User created Succesfully
     * @apiSuccess {String} session Session logged in database Succesfully
     */
-    signUp: async (req, res)=>{
-            const { email } = req.body;
-			let data = await  userSchemaValidation.validateAsync(req.body);
-            const user = await userModel.findOne({ where: {email} });
-            data.password = common.passwordEncrpt(data.password);
-			if (user) throw new Error('User already does exist');
-			data = await (await userModel.create(data)).toJSON();
-			delete data.password;
-            res.status(201).send(data);
+    signUp: async (req, res) => {
+        const { email } = req.body;
+        let data = await userSchemaValidation.validateAsync(req.body);
+        const user = await userModel.findOne({ where: { email } });
+        if (user) throw new Error('User already does exist');
+        data.password = common.passwordEncrpt(data.password);
+        data = await (await userModel.create(data)).toJSON();
+        delete data.password;
+        res.status(201).send({ success: true, message: 'User created Succesfully' });
     },
 
     /**
@@ -35,7 +35,7 @@ const AuthController = {
     * @apiError  UserNotFound The <code>email or password</code> of the User is not valid.
     */
 
-    signIn: async (req, res)=>{
+    signIn: async (req, res) => {
         res.status(200).send({ status: '200', message: 'test done' });
     },
 
@@ -48,7 +48,7 @@ const AuthController = {
     * @apiError  UserNotFound User is not logged
     */
 
-    signOut: async (req, res)=>{
+    signOut: async (req, res) => {
         res.status(200).send({ status: '200', message: 'test done' });
     },
 
