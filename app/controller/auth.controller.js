@@ -18,7 +18,7 @@ const AuthController = {
         let data = await userSchemaValidation.validateAsync(req.body);
         const user = await userModel.findOne({ where: { email } });
         if (user) throw new Error('User already does exist');
-        data.password = common.passwordEncrpt(data.password);
+        data.password = await common.passwordEncrpt(data.password);
         data = await (await userModel.create(data)).toJSON();
         delete data.password;
         res.status(201).send({ success: true, message: 'User created Succesfully' });
@@ -36,7 +36,12 @@ const AuthController = {
     */
 
     signIn: async (req, res) => {
-        res.status(200).send({ status: '200', message: 'test done' });
+        const { email, password } = req.body;
+			const user = await userModel.findOne({ where: { email } });
+			if (!user) throw new Error('User does not exist');
+			const password_valid = await common.passwordValid(password,user.password);
+			if (!password_valid) throw new Error('Incorrect Password');
+			res.status(200).send({ email: user.email });
     },
 
     /**
