@@ -8,7 +8,7 @@
   <h3 align="center">nodejs-api-boilerplate</h3>
 
   <p align="center">
-    boilerplate for kickstart your clean architecture node.js projects ( JavaScript+ Express + Sequelize + JWT and more )
+    boilerplate to kickstart your clean architecture node.js projects ( JavaScript+ Express + Sequelize + JWT and more )
     <br />
     <a href="https://github.com/maksof-jawad/nodejs-api-boilerplate#readme"><strong>Explore the docs »</strong></a>
     <br />
