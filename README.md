@@ -97,7 +97,7 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   apidoc -i app -o apidoc
   ```
-  
+
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
@@ -169,5 +169,5 @@ Project Link: [https://github.com/maksof-jawad/nodejs-api-boilerplate](https://g
 -----
 Credits: [Maksof Jawad](https://github.com/maksof-jawad)
 
-Last Edited on: 10/10/2022
+Last Edited on: 10/14/2022
 
