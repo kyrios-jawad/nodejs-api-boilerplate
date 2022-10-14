@@ -37,11 +37,11 @@ const AuthController = {
 
     signIn: async (req, res) => {
         const { email, password } = req.body;
-			const user = await userModel.findOne({ where: { email } });
-			if (!user) throw new Error('User does not exist');
-			const password_valid = await common.passwordValid(password,user.password);
-			if (!password_valid) throw new Error('Incorrect Password');
-			res.status(200).send({ email: user.email });
+        const user = await userModel.findOne({ where: { email } });
+        if (!user) throw new Error('User does not exist');
+        const password_valid = await common.passwordValid(password, user.password);
+        if (!password_valid) throw new Error('Incorrect Password');
+        res.status(200).send({ email: user.email });
     },
 
     /**
@@ -54,7 +54,7 @@ const AuthController = {
     */
 
     signOut: async (req, res) => {
-        res.status(200).send({ status: '200', message: 'test done' });
+        res.status(200).send({ status: '200', message: 'logout successfully' });
     },
 
 
